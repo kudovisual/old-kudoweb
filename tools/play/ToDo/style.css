@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+body {
+    font-family: Honk;
+    background-color: #5ca0dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    font-family: Honk;
+    width: 300px;
+    background: #dd685c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: Honk;
+    text-align: center;
+}
+
+input, button {
+    font-family: Honk;
+    background-color: #5ca0dd;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ul {
+    font-family: Honk;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background: #eee;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background: #ddd;
+}
